@@ -29,6 +29,7 @@ jobs:
       - name: Run a one-line script
         run: cat /etc/*release
 
+      # Check Docker Version
       - name: Check Docker Version
         run: docker version
 
